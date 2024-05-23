@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+    <good>1,3,4</good>
+    <bad>2,3,5</bad>
+    <item id="first">
+        <value>50</value>
+        <related>
+            <id>second</id>
+            <id>third</id>
+            <id>fourth</id>
+        </related>
+    </item>
+    <item id="second">
+        <value>20</value>
+        <related>
+            <id>first</id>
+        </related>
+    </item>
+    <item id="third">
+        <value>30</value>
+        <related>
+            <id>fourth</id>
+        </related>
+    </item>
+    <item id="fourth">
+        <value>10</value>
+        <related>
+            <id>first</id>
+        </related>
+    </item>
+    <item id="last">
+        <value>40</value>
+        <related>
+            <id>first</id>
+        </related>
+    </item>
+    <item id="end">
+        <div id="parent">
+			<label id="child1">this is text</label>
+			<span/>
+			<label>child two</label>
+		</div>
+		<div>
+		test
+		</div>
+        <div id="parent">
+			<li id="1" class="child3"/>
+			<li>ChILd4</li>
+			<li>text</li>
+			<div>
+				<li id="child5"/>
+				<label>child6</label>
+			</div>
+		</div>
+		<div>
+		test
+		</div>
+		<div>
+		test
+		</div>
+		<div>
+		test
+		</div>
+    </item>
+</items>

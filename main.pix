@@ -187,7 +187,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех пользователей с телефоном</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i23" i:type="ExecutedStep">
@@ -198,7 +198,7 @@
                   <PropertyValue z:Id="i24">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
-                    <_expression>"Юзеры с телефонами\n\n" + str_usersWithPhone</_expression>
+                    <_expression>"\nЮзеры с телефонами\n" + str_usersWithPhone</_expression>
                     <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -208,7 +208,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод пользователей с телефоном</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -219,7 +219,7 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>1</Text>
+            <Text>Первое задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
           <AbstractStep z:Id="i25" i:type="ExecutedStep">
@@ -250,7 +250,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра пользователей с мобильным телефоном</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i29" i:type="ExecutedStep">
@@ -287,7 +287,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение пользователей с мобильным телефоном</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i33" i:type="ExecutedStep">
@@ -315,7 +315,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех пользователей с мобильным телефоном</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i35" i:type="ExecutedStep">
@@ -336,7 +336,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод пользователей с мобильным телефоном</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -347,7 +347,7 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>2</Text>
+            <Text>Второе задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
           <AbstractStep z:Id="i37" i:type="ExecutedStep">
@@ -378,7 +378,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра пользователей с мобильным и рабочим телефоном</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i41" i:type="ExecutedStep">
@@ -415,7 +415,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение пользователей с мобильным и рабочим телефоном</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i45" i:type="ExecutedStep">
@@ -443,7 +443,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех пользователей с мобильным и рабочим телефоном</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i47" i:type="ExecutedStep">
@@ -464,7 +464,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод пользователей с мобильным и рабочим телефоном</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -475,7 +475,7 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>3</Text>
+            <Text>Третье задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
           <AbstractStep z:Id="i49" i:type="ExecutedStep">
@@ -506,7 +506,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра пользователей, у которых эмейл начинается с login@</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i53" i:type="ExecutedStep">
@@ -543,7 +543,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение пользователей, у которых эмейл начинается с login@</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i57" i:type="ExecutedStep">
@@ -571,7 +571,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех пользователей, у которых эмейл начинается с login@</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i59" i:type="ExecutedStep">
@@ -592,7 +592,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод пользователей, у которых эмейл начинается с login@</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -603,7 +603,7 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>4</Text>
+            <Text>Четвертое задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
           <AbstractStep z:Id="i61" i:type="ExecutedStep">
@@ -634,7 +634,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра пользователей, состаящие в html группе</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i65" i:type="ExecutedStep">
@@ -671,7 +671,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение пользователей, состаящие в html группе</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i69" i:type="ExecutedStep">
@@ -699,7 +699,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех пользователей, состаящие в html группе</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i71" i:type="ExecutedStep">
@@ -720,7 +720,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод пользователей, состаящие в html группе</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -731,7 +731,7 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>5</Text>
+            <Text>Пятое задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
           <AbstractStep z:Id="i73" i:type="ExecutedStep">
@@ -762,7 +762,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра пользователей, у которых логин больше 3 символов</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i77" i:type="ExecutedStep">
@@ -799,7 +799,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение пользователей, у которых логин больше 3 символов</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i81" i:type="ExecutedStep">
@@ -827,7 +827,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех пользователей, у которых логин больше 3 символов</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
               <AbstractStep z:Id="i83" i:type="ExecutedStep">
@@ -848,7 +848,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод пользователей, у которых логин больше 3 символов</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -859,7 +859,7 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>6</Text>
+            <Text>Шестое задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
         </Childs>
@@ -877,18 +877,47 @@
         <Childs>
           <AbstractStep z:Id="i86" i:type="ExecutedStep">
             <Childs />
-            <Id>3367b9c3-8fbf-4600-a10d-868e8d8af4d0</Id>
+            <Id>2528f301-3607-4e8e-aa09-3f484825ab5c</Id>
             <Parent z:Ref="i85" />
             <PropertyValues>
               <PropertyValue z:Id="i87">
-                <PropertyName>FilePath</PropertyName>
+                <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>@"C:\Users\User\Desktop\Xpath\Task2.xml"</_expression>
+                <_expression>"In/Task2.xml"</_expression>
                 <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
               <PropertyValue z:Id="i88">
+                <PropertyName>To</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_path</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text>Присвоение пути ко второму тз</Text>
+            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i89" i:type="ExecutedStep">
+            <Childs />
+            <Id>3367b9c3-8fbf-4600-a10d-868e8d8af4d0</Id>
+            <Parent z:Ref="i85" />
+            <PropertyValues>
+              <PropertyValue z:Id="i90">
+                <PropertyName>FilePath</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_path</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i91">
                 <PropertyName>Content</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>text</_expression>
@@ -904,12 +933,12 @@
             <Text></Text>
             <_activityFullName>Activities.Files.ReadFile</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i89" i:type="ExecutedStep">
+          <AbstractStep z:Id="i92" i:type="ExecutedStep">
             <Childs />
             <Id>566be340-6f6c-4b76-90d3-dccf6ebec81e</Id>
             <Parent z:Ref="i85" />
             <PropertyValues>
-              <PropertyValue z:Id="i90">
+              <PropertyValue z:Id="i93">
                 <PropertyName>XmlString</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>text</_expression>
@@ -917,7 +946,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i91">
+              <PropertyValue z:Id="i94">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>XmlDocument</_expression>
@@ -930,17 +959,17 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text></Text>
+            <Text>Преобразование строки в xml</Text>
             <_activityFullName>Activities.Parsing.XMLParsing</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i92" i:type="ExecutedStep">
+          <AbstractStep z:Id="i95" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i93" i:type="ExecutedStep">
+              <AbstractStep z:Id="i96" i:type="ExecutedStep">
                 <Childs />
                 <Id>d654d696-9bde-42ac-9f6f-4ddb54b1d6f0</Id>
-                <Parent z:Ref="i92" />
+                <Parent z:Ref="i95" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i94">
+                  <PropertyValue z:Id="i97">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>""</_expression>
@@ -948,7 +977,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i95">
+                  <PropertyValue z:Id="i98">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_ItemsHonest</_expression>
@@ -961,15 +990,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра элементов с глубиной четных 2</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i96" i:type="ExecutedStep">
+              <AbstractStep z:Id="i99" i:type="ExecutedStep">
                 <Childs />
                 <Id>645bf2b8-6cd6-4706-834e-bee95e3ea05c</Id>
-                <Parent z:Ref="i92" />
+                <Parent z:Ref="i95" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i97">
+                  <PropertyValue z:Id="i100">
                     <PropertyName>XmlElement</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>XmlDocument.Element("items")</_expression>
@@ -977,7 +1006,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i98">
+                  <PropertyValue z:Id="i101">
                     <PropertyName>XPath</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"//item[count(ancestor::item) mod 2 = 1]"</_expression>
@@ -985,7 +1014,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i99">
+                  <PropertyValue z:Id="i102">
                     <PropertyName>ResultList</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>xmlItems</_expression>
@@ -998,15 +1027,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение элементов с глубиной четных 2</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i100" i:type="ExecutedStep">
+              <AbstractStep z:Id="i103" i:type="ExecutedStep">
                 <Childs />
                 <Id>08a81afd-a631-441d-afbe-eba0bb32cc5b</Id>
-                <Parent z:Ref="i92" />
+                <Parent z:Ref="i95" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i101">
+                  <PropertyValue z:Id="i104">
                     <PropertyName>CSCode</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -1026,15 +1055,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех элементов с глубиной четных 2</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i102" i:type="ExecutedStep">
+              <AbstractStep z:Id="i105" i:type="ExecutedStep">
                 <Childs />
                 <Id>d880c381-008d-4c80-87be-554a167f0e4d</Id>
-                <Parent z:Ref="i92" />
+                <Parent z:Ref="i95" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i103">
+                  <PropertyValue z:Id="i106">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Items с глубина залегания четным 2\n" + str_ItemsHonest</_expression>
@@ -1047,7 +1076,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод элементов с глубиной четных 2</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -1058,17 +1087,17 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>1</Text>
+            <Text>Первое задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i104" i:type="ExecutedStep">
+          <AbstractStep z:Id="i107" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i105" i:type="ExecutedStep">
+              <AbstractStep z:Id="i108" i:type="ExecutedStep">
                 <Childs />
                 <Id>58b86020-830c-4d33-a586-ff8cf0ce6817</Id>
-                <Parent z:Ref="i104" />
+                <Parent z:Ref="i107" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i106">
+                  <PropertyValue z:Id="i109">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>""</_expression>
@@ -1076,7 +1105,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i107">
+                  <PropertyValue z:Id="i110">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_ItemsWithParentAndChild</_expression>
@@ -1089,15 +1118,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра элементов с предком и дочерним элементом</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i108" i:type="ExecutedStep">
+              <AbstractStep z:Id="i111" i:type="ExecutedStep">
                 <Childs />
                 <Id>a369722c-4b0f-44f8-8703-76594b2b084a</Id>
-                <Parent z:Ref="i104" />
+                <Parent z:Ref="i107" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i109">
+                  <PropertyValue z:Id="i112">
                     <PropertyName>XmlElement</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>XmlDocument.Element("items")</_expression>
@@ -1105,7 +1134,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i110">
+                  <PropertyValue z:Id="i113">
                     <PropertyName>XPath</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"//item[parent::item and child::item]"</_expression>
@@ -1113,7 +1142,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i111">
+                  <PropertyValue z:Id="i114">
                     <PropertyName>ResultList</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>xmlItems</_expression>
@@ -1126,15 +1155,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение элементов с предком и дочерним элементом</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i112" i:type="ExecutedStep">
+              <AbstractStep z:Id="i115" i:type="ExecutedStep">
                 <Childs />
                 <Id>8219e5e2-f49b-400d-999e-e2d2fb2a4464</Id>
-                <Parent z:Ref="i104" />
+                <Parent z:Ref="i107" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i113">
+                  <PropertyValue z:Id="i116">
                     <PropertyName>CSCode</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -1154,15 +1183,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех элементов с предком и дочерним элементом</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i114" i:type="ExecutedStep">
+              <AbstractStep z:Id="i117" i:type="ExecutedStep">
                 <Childs />
                 <Id>e7efb683-5d3e-4bf0-bbd0-2f5a22855978</Id>
-                <Parent z:Ref="i104" />
+                <Parent z:Ref="i107" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i115">
+                  <PropertyValue z:Id="i118">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Items, у которых есть старший брат и младший брат.\n" + str_ItemsWithParentAndChild</_expression>
@@ -1175,7 +1204,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод элементов с предком и дочерним элементом</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -1186,17 +1215,17 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>2</Text>
+            <Text>Второе задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i116" i:type="ExecutedStep">
+          <AbstractStep z:Id="i119" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i117" i:type="ExecutedStep">
+              <AbstractStep z:Id="i120" i:type="ExecutedStep">
                 <Childs />
                 <Id>cb36f901-833c-4090-ae34-20bed761cdb9</Id>
-                <Parent z:Ref="i116" />
+                <Parent z:Ref="i119" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i118">
+                  <PropertyValue z:Id="i121">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>""</_expression>
@@ -1204,7 +1233,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i119">
+                  <PropertyValue z:Id="i122">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_ItemsChildSix</_expression>
@@ -1217,15 +1246,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра элементов с количеством дочерних элементов равным 6</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i120" i:type="ExecutedStep">
+              <AbstractStep z:Id="i123" i:type="ExecutedStep">
                 <Childs />
                 <Id>2dc59447-9638-4abf-bb41-444b6d337f2e</Id>
-                <Parent z:Ref="i116" />
+                <Parent z:Ref="i119" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i121">
+                  <PropertyValue z:Id="i124">
                     <PropertyName>XmlElement</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>XmlDocument.Element("items")</_expression>
@@ -1233,7 +1262,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i122">
+                  <PropertyValue z:Id="i125">
                     <PropertyName>XPath</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"//item[count(descendant::item) = 6]"</_expression>
@@ -1241,7 +1270,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i123">
+                  <PropertyValue z:Id="i126">
                     <PropertyName>ResultList</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>xmlItems</_expression>
@@ -1254,15 +1283,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение элементов с  количеством дочерних элементов равным 6</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i124" i:type="ExecutedStep">
+              <AbstractStep z:Id="i127" i:type="ExecutedStep">
                 <Childs />
                 <Id>4886f42a-4623-4f25-b7f5-492ecbfc80ce</Id>
-                <Parent z:Ref="i116" />
+                <Parent z:Ref="i119" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i125">
+                  <PropertyValue z:Id="i128">
                     <PropertyName>CSCode</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -1282,15 +1311,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех элементов с количеством дочерних элементов равным 6</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i126" i:type="ExecutedStep">
+              <AbstractStep z:Id="i129" i:type="ExecutedStep">
                 <Childs />
                 <Id>005723a0-9bff-472d-8bba-3e9e00c89876</Id>
-                <Parent z:Ref="i116" />
+                <Parent z:Ref="i119" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i127">
+                  <PropertyValue z:Id="i130">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Items, у деда которых ровно 6 потомков\n" + str_ItemsChildSix</_expression>
@@ -1303,7 +1332,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод элементов с количеством дочерних элементов равным 6</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -1314,17 +1343,17 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>3</Text>
+            <Text>Третье задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i128" i:type="ExecutedStep">
+          <AbstractStep z:Id="i131" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i129" i:type="ExecutedStep">
+              <AbstractStep z:Id="i132" i:type="ExecutedStep">
                 <Childs />
                 <Id>ccbb9af4-77e4-4d89-a53a-a13513e6404b</Id>
-                <Parent z:Ref="i128" />
+                <Parent z:Ref="i131" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i130">
+                  <PropertyValue z:Id="i133">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>""</_expression>
@@ -1332,7 +1361,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i131">
+                  <PropertyValue z:Id="i134">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_ItemsParentAndChildSameClass</_expression>
@@ -1345,15 +1374,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра элементов с родителем и доченим элементом с одинаковым классов</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i132" i:type="ExecutedStep">
+              <AbstractStep z:Id="i135" i:type="ExecutedStep">
                 <Childs />
                 <Id>8a098ef6-a64e-4e9c-8536-f3058b670145</Id>
-                <Parent z:Ref="i128" />
+                <Parent z:Ref="i131" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i133">
+                  <PropertyValue z:Id="i136">
                     <PropertyName>XmlElement</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>XmlDocument.Element("items")</_expression>
@@ -1361,7 +1390,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i134">
+                  <PropertyValue z:Id="i137">
                     <PropertyName>XPath</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"//item[contains(parent::item[@class], child::item[@class])]"</_expression>
@@ -1369,7 +1398,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i135">
+                  <PropertyValue z:Id="i138">
                     <PropertyName>ResultList</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>xmlItems</_expression>
@@ -1382,15 +1411,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение элементов с   родителем и доченим элементом с одинаковым классов</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i136" i:type="ExecutedStep">
+              <AbstractStep z:Id="i139" i:type="ExecutedStep">
                 <Childs />
                 <Id>2099b31d-4e14-41dc-bf42-c5e607234e64</Id>
-                <Parent z:Ref="i128" />
+                <Parent z:Ref="i131" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i137">
+                  <PropertyValue z:Id="i140">
                     <PropertyName>CSCode</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -1410,15 +1439,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех элементов с родителем и доченим элементом с одинаковым классов</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i138" i:type="ExecutedStep">
+              <AbstractStep z:Id="i141" i:type="ExecutedStep">
                 <Childs />
                 <Id>6fdd5d4d-f2e3-4065-95a7-8aed662eabfd</Id>
-                <Parent z:Ref="i128" />
+                <Parent z:Ref="i131" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i139">
+                  <PropertyValue z:Id="i142">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Items, , у которых есть предок и потомок с одинаковым классом\n" + str_ItemsParentAndChildSameClass</_expression>
@@ -1431,7 +1460,7 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод элементов с родителем и доченим элементом с одинаковым классов</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
@@ -1442,7 +1471,7 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>4</Text>
+            <Text>Четвертое задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
         </Childs>
@@ -1456,22 +1485,51 @@
         <Text>Task-2</Text>
         <_activityFullName>BR.Core.Base.Container</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i140" i:type="ExecutedStep">
+      <AbstractStep z:Id="i143" i:type="ExecutedStep">
         <Childs>
-          <AbstractStep z:Id="i141" i:type="ExecutedStep">
+          <AbstractStep z:Id="i144" i:type="ExecutedStep">
             <Childs />
-            <Id>cfaf1dba-00bf-4495-826d-acff37f73d5d</Id>
-            <Parent z:Ref="i140" />
+            <Id>4c74dc6a-cfd8-4959-8787-cec7a618c717</Id>
+            <Parent z:Ref="i143" />
             <PropertyValues>
-              <PropertyValue z:Id="i142">
-                <PropertyName>FilePath</PropertyName>
+              <PropertyValue z:Id="i145">
+                <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>@"C:\Users\User\Desktop\Xpath\Task3.xml"</_expression>
+                <_expression>"In/Task3.xml"</_expression>
                 <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i143">
+              <PropertyValue z:Id="i146">
+                <PropertyName>To</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_path</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text>Присвоение пути ко третьему тз</Text>
+            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i147" i:type="ExecutedStep">
+            <Childs />
+            <Id>cfaf1dba-00bf-4495-826d-acff37f73d5d</Id>
+            <Parent z:Ref="i143" />
+            <PropertyValues>
+              <PropertyValue z:Id="i148">
+                <PropertyName>FilePath</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_path</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i149">
                 <PropertyName>Content</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>text</_expression>
@@ -1487,12 +1545,12 @@
             <Text></Text>
             <_activityFullName>Activities.Files.ReadFile</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i144" i:type="ExecutedStep">
+          <AbstractStep z:Id="i150" i:type="ExecutedStep">
             <Childs />
             <Id>c9ef090b-67a9-4980-bbd0-939f54a5e039</Id>
-            <Parent z:Ref="i140" />
+            <Parent z:Ref="i143" />
             <PropertyValues>
-              <PropertyValue z:Id="i145">
+              <PropertyValue z:Id="i151">
                 <PropertyName>XmlString</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>text</_expression>
@@ -1500,7 +1558,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i146">
+              <PropertyValue z:Id="i152">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>XmlDocument</_expression>
@@ -1513,17 +1571,17 @@
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text></Text>
+            <Text>Преобразование строки в xml</Text>
             <_activityFullName>Activities.Parsing.XMLParsing</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i147" i:type="ExecutedStep">
+          <AbstractStep z:Id="i153" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i148" i:type="ExecutedStep">
+              <AbstractStep z:Id="i154" i:type="ExecutedStep">
                 <Childs />
                 <Id>31abb8fb-30f4-4441-8f59-580ab38523d6</Id>
-                <Parent z:Ref="i147" />
+                <Parent z:Ref="i153" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i149">
+                  <PropertyValue z:Id="i155">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>""</_expression>
@@ -1531,7 +1589,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i150">
+                  <PropertyValue z:Id="i156">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_ItemsPositionAndValue</_expression>
@@ -1544,15 +1602,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра элементов с одинаковыми значением и позицией</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i151" i:type="ExecutedStep">
+              <AbstractStep z:Id="i157" i:type="ExecutedStep">
                 <Childs />
                 <Id>fbf498fa-8236-4fa8-ad24-99228b98ace2</Id>
-                <Parent z:Ref="i147" />
+                <Parent z:Ref="i153" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i152">
+                  <PropertyValue z:Id="i158">
                     <PropertyName>XmlElement</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>XmlDocument.Element("items")</_expression>
@@ -1560,7 +1618,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i153">
+                  <PropertyValue z:Id="i159">
                     <PropertyName>XPath</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"//item[position() * 10 = value[text()]]"</_expression>
@@ -1568,7 +1626,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i154">
+                  <PropertyValue z:Id="i160">
                     <PropertyName>ResultList</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>xmlItems</_expression>
@@ -1581,15 +1639,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение элементов с одинаковыми значением и позицией</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i155" i:type="ExecutedStep">
+              <AbstractStep z:Id="i161" i:type="ExecutedStep">
                 <Childs />
                 <Id>6f6e16ef-dcf5-4767-8ee3-e55773fac530</Id>
-                <Parent z:Ref="i147" />
+                <Parent z:Ref="i153" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i156">
+                  <PropertyValue z:Id="i162">
                     <PropertyName>CSCode</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -1609,15 +1667,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех элементов с одинаковыми значением и позицией</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i157" i:type="ExecutedStep">
+              <AbstractStep z:Id="i163" i:type="ExecutedStep">
                 <Childs />
                 <Id>8f08357b-ea25-4f6b-9b34-0f5efc8c890b</Id>
-                <Parent z:Ref="i147" />
+                <Parent z:Ref="i153" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i158">
+                  <PropertyValue z:Id="i164">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Items, у которых value совпадает с порядковым номером в списке, умноженным на 10\n" + str_ItemsPositionAndValue</_expression>
@@ -1630,28 +1688,28 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод элементов с  одинаковыми значением и позицией</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
             <Id>8cc6c1dc-035b-4847-a5ca-2137aa813e60</Id>
-            <Parent z:Ref="i140" />
+            <Parent z:Ref="i143" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
-            <EnableStatus>false</EnableStatus>
+            <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>1</Text>
+            <Text>Первое задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i159" i:type="ExecutedStep">
+          <AbstractStep z:Id="i165" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i160" i:type="ExecutedStep">
+              <AbstractStep z:Id="i166" i:type="ExecutedStep">
                 <Childs />
                 <Id>a6c4011b-707e-48b4-aba8-8ef824f8d77a</Id>
-                <Parent z:Ref="i159" />
+                <Parent z:Ref="i165" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i161">
+                  <PropertyValue z:Id="i167">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>""</_expression>
@@ -1659,7 +1717,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i162">
+                  <PropertyValue z:Id="i168">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_ItemsMoreThenNext</_expression>
@@ -1672,15 +1730,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра элементов, значение у которых больше чем у следующего</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i163" i:type="ExecutedStep">
+              <AbstractStep z:Id="i169" i:type="ExecutedStep">
                 <Childs />
                 <Id>9a886498-0c5c-458f-8acf-899c1ab630e0</Id>
-                <Parent z:Ref="i159" />
+                <Parent z:Ref="i165" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i164">
+                  <PropertyValue z:Id="i170">
                     <PropertyName>XmlElement</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>XmlDocument.Element("items")</_expression>
@@ -1688,7 +1746,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i165">
+                  <PropertyValue z:Id="i171">
                     <PropertyName>XPath</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"//item[value &gt; following-sibling::item[1]/value]"</_expression>
@@ -1696,7 +1754,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i166">
+                  <PropertyValue z:Id="i172">
                     <PropertyName>ResultList</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>xmlItems</_expression>
@@ -1709,15 +1767,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение элементов, значение у которых больше чем у следующего</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i167" i:type="ExecutedStep">
+              <AbstractStep z:Id="i173" i:type="ExecutedStep">
                 <Childs />
                 <Id>60324f11-4919-4509-92c3-8dcd2ee3536c</Id>
-                <Parent z:Ref="i159" />
+                <Parent z:Ref="i165" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i168">
+                  <PropertyValue z:Id="i174">
                     <PropertyName>CSCode</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -1737,15 +1795,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение строки всех элементов, значение у которых больше чем у следующего</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i169" i:type="ExecutedStep">
+              <AbstractStep z:Id="i175" i:type="ExecutedStep">
                 <Childs />
                 <Id>e076740c-e069-4c54-8b0d-0831705fd70e</Id>
-                <Parent z:Ref="i159" />
+                <Parent z:Ref="i165" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i170">
+                  <PropertyValue z:Id="i176">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Items, у которых value больше, чем у следующего за ним itemа\n" + str_ItemsMoreThenNext</_expression>
@@ -1758,28 +1816,28 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод элементов, значение у которых больше чем у следующего</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
             <Id>b39e531a-4843-4d83-b498-b3cc3c34b819</Id>
-            <Parent z:Ref="i140" />
+            <Parent z:Ref="i143" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
-            <EnableStatus>false</EnableStatus>
+            <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>2</Text>
+            <Text>Второе задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i171" i:type="ExecutedStep">
+          <AbstractStep z:Id="i177" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i172" i:type="ExecutedStep">
+              <AbstractStep z:Id="i178" i:type="ExecutedStep">
                 <Childs />
                 <Id>50706b47-0f37-44e5-9314-09a1d8ca0212</Id>
-                <Parent z:Ref="i171" />
+                <Parent z:Ref="i177" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i173">
+                  <PropertyValue z:Id="i179">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>""</_expression>
@@ -1787,7 +1845,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i174">
+                  <PropertyValue z:Id="i180">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_ItemsWithAttributeChild</_expression>
@@ -1800,15 +1858,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Создание параметра элементов, у которых в аттрибуте есть child</Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i175" i:type="ExecutedStep">
+              <AbstractStep z:Id="i181" i:type="ExecutedStep">
                 <Childs />
                 <Id>e3574d3a-793b-41a6-8219-ecd7baff201c</Id>
-                <Parent z:Ref="i171" />
+                <Parent z:Ref="i177" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i176">
+                  <PropertyValue z:Id="i182">
                     <PropertyName>XmlElement</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>XmlDocument.Element("items")</_expression>
@@ -1816,7 +1874,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i177">
+                  <PropertyValue z:Id="i183">
                     <PropertyName>XPath</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"//*[parent::*[contains(@*, 'parent')] and contains(translate(concat(@class, @id, text()), 'CHILD', 'child'), 'child')]"</_expression>
@@ -1824,7 +1882,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i178">
+                  <PropertyValue z:Id="i184">
                     <PropertyName>ResultList</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>xmlItems</_expression>
@@ -1837,15 +1895,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Получение элементов, у которых в аттрибуте есть child</Text>
                 <_activityFullName>Activities.Parsing.XMLGetNode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i179" i:type="ExecutedStep">
+              <AbstractStep z:Id="i185" i:type="ExecutedStep">
                 <Childs />
                 <Id>3286b842-31ae-4c20-a6b3-4ec12c9876e1</Id>
-                <Parent z:Ref="i171" />
+                <Parent z:Ref="i177" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i180">
+                  <PropertyValue z:Id="i186">
                     <PropertyName>CSCode</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression i:nil="true" />
@@ -1865,15 +1923,15 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод элементов, у которых в аттрибуте есть child</Text>
                 <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i181" i:type="ExecutedStep">
+              <AbstractStep z:Id="i187" i:type="ExecutedStep">
                 <Childs />
                 <Id>7cba11bf-cd0b-4635-a1d1-8a367752da39</Id>
-                <Parent z:Ref="i171" />
+                <Parent z:Ref="i177" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i182">
+                  <PropertyValue z:Id="i188">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>"Items, у которых узлы с ID=’parent’ выбрать детей (потомки первого поколения), у которых хотя бы один атрибут или текст содержат слово «child» в любом регистре\n" + str_ItemsWithAttributeChild</_expression>
@@ -1886,18 +1944,18 @@
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
-                <Text></Text>
+                <Text>Вывод элементов, у которых в аттрибуте есть child</Text>
                 <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
               </AbstractStep>
             </Childs>
             <Id>56983dbc-1bb3-4df6-8420-e798736c3a68</Id>
-            <Parent z:Ref="i140" />
+            <Parent z:Ref="i143" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
-            <EnableStatus>false</EnableStatus>
+            <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
-            <Text>3</Text>
+            <Text>Третье задание</Text>
             <_activityFullName>BR.Core.Base.Container</_activityFullName>
           </AbstractStep>
         </Childs>
@@ -1927,7 +1985,7 @@
   <Params />
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
-    <d2p1:Variable z:Id="i183">
+    <d2p1:Variable z:Id="i189">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_path</d2p1:Name>
